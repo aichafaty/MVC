@@ -39,8 +39,8 @@
               <td>
 
 <!--                  <a href="http://localhost/MesProjest/MVCphpJeSouffre/index.php?view=modififier&id=--><?//= $entreprise['id']?><!--" class="btn btn-warning" name="modifier"><i class="bi bi-pencil-square"></i></a>-->
-                  <a href="http://localhost/MesProjest/MVCphpJeSouffre/index.php?action=supprimer&id=<?= $entreprise['id']?>" class="btn btn-danger" name="supprimer" ><i class="bi bi-dash-circle"></i></a>
-                  <a href="http://localhost/MesProjest/MVCphpJeSouffre/index.php?view=show&id=<?= $entreprise['id']?>" class="btn btn-success" name="show"><i class="bi bi-patch-plus"></i></a>
+                  <a href="http://localhost/MesProjest/MVC/MVCphpJeSouffre/index.php?action=supprimer&id=<?= $entreprise['id']?>" class="btn btn-danger" name="supprimer" ><i class="bi bi-dash-circle"></i></a>
+                  <a href="http://localhost/MesProjest/MVC/MVCphpJeSouffre/index.php?view=show&id=<?= $entreprise['id']?>" class="btn btn-success" name="show"><i class="bi bi-patch-plus"></i></a>
 
               </td>
           </tr>

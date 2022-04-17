@@ -94,7 +94,7 @@ class EntrepriseController{
 
     public function show($id){
         $data=new EntrepriseDb();
-        $entreprise=$data->show();
+        $entreprise=$data->show($id);
         include 'src/view/entreprise/show.php';
 
     }

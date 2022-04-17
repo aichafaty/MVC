@@ -1,11 +1,7 @@
 
-<?php
-//require_once 'src/controller/EntrepriseController.php';
-//var_dump($entreprise);
-?>
 <div class="container">
 
-    <form class="row g-3" action="http://localhost/MesProjest/MVCphpJeSouffre/index.php?view=ajouter&action=add" method="post">
+    <form class="row g-3" action="http://localhost/MesProjest/MVC/MVCphpJeSouffre/index.php?view=ajouter&action=add" method="post">
         <div class="col-md-6">
 
             <label for="nomEntreprise" class="form-label">NomEntreprise</label>
@@ -109,41 +105,7 @@
         </div>
 
 
-<!--        <div class="col-md-6">-->
-<!--            <label for="inputCity" class="form-label">Quartier</label>-->
-<!--            <input type="text" class="form-control" id="inputCity">-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--            <label for="inputCity" class="form-label">StatutJuridique</label>-->
-<!--            <input type="text" class="form-control" id="inputCity">-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--            <label for="inputState" class="form-label"></label>-->
-<!--            <select id="inputState" class="form-select">-->
-<!--                <option selected>Formation</option>-->
-<!--                <option> oui</option>-->
-<!--                <option> Non</option>-->
-<!--            </select>-->
-<!--        </div>-->
-        <!--    <div class="col-md-4">-->
-        <!--        <label for="inputState" class="form-label"></label>-->
-        <!--        <select id="inputState" class="form-select">-->
-        <!--            <option selected>Choose...</option>-->
-        <!--            <option>...</option>-->
-        <!--        </select>-->
-        <!--    </div>-->
-        <!--    <div class="col-md-2">-->
-        <!--        <label for="inputZip" class="form-label">Zip</label>-->
-        <!--        <input type="text" class="form-control" id="inputZip">-->
-        <!--    </div>-->
-        <!--    <div class="col-12">-->
-        <!--        <div class="form-check">-->
-        <!--            <input class="form-check-input" type="checkbox" id="gridCheck">-->
-        <!--            <label class="form-check-label" for="gridCheck">-->
-        <!--                Check me out-->
-        <!--            </label>-->
-        <!--        </div>-->
-        <!--    </div>-->
+
         <div class="col-12">
             <button type="submit" class="btn btn-primary" name="envoyer">Envoyer</button>
         </div>

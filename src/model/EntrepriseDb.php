@@ -72,11 +72,9 @@ class EntrepriseDb {
         }
 
         public function show($id){
-            $query=$this->db->prepare("SELECT * FROM entreprise WHERE id=$id");
-
+            $query=$this->db->prepare("SELECT * FROM entreprise e,formation f,statut_juridique s,quartier q WHERE e.id_quartier=q.id AND e.id_statut_juridique=s.idS AND e.id_formation=f.idF  AND e.id=".$id);
             $query->execute();
-            $data= $query->fetchAll();
-            return $data;
+            return $query->fetch();
 
         }
 }
